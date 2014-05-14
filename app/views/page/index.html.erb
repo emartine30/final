@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+ <% if user_signed_in? %>
+<%= current_user.email %>
+<% end %>
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
