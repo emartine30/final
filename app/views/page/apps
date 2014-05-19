@@ -1,0 +1,32 @@
+<head>
+  <h1 style="color:white" class="text-center">
+    <strong>Booking Application</strong>
+  </h1>
+<body>
+  <div id="page">
+    <div class="container">
+      <!--Begin Embedded Calendar-->
+<iframe src="http://www.holidayscalendar.com/display.php?502&274&000&20&20&0485AC&Arial&14&fff&000&0000FF&cccccc&FEFFFE&12&eceff5&no&long&attributes" width=502 height=320 scrolling="no" frameBorder="0" align="center"><label style="color:white">Performance Date</label></iframe><!--Requested Link--><div style="display:block; font-family:Arial; font-size:12px;">!</div><!--End Calendar-->
+</div>
+
+<div class="container">
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="inputfee" class="col-sm-2 control-label" style="color:white">Fee</label>
+    <div class="col-sm-10">
+      <input type="Number" class="form-control" id="inputEmail3" placeholder="$">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label" style="color:white">Rider</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" rows="3" placeholder="Description"></textarea>
+    </div>
+  </div>
+  <a class="btn dropdown-toggle" data-toggle="dropdown">
+                    <button type="button" align="right" class="btn btn-primary btn-lg">Submit</button>
+                  </a>
+               
+  
+  
+
