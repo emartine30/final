@@ -13,9 +13,10 @@
 <% end %>
 </span>
 
+<div class="container">
 <div class="span8 text-right">
 <div id="content-header-actions-container">
-<a href="/sebuano/edit"class="btn btn-primary btn-lg" role="button"></i>
+<a href="/"class="btn btn-primary btn-lg" role="button" style="width: 450px;"></i>
 Edit Artist Page
 </a>
 </div>
@@ -26,50 +27,18 @@ Edit Artist Page
 </div>
 <br>
 
-<div class="container-fluid" id="content-body">
-	
-	<section id="microsite">
-		<form accept-charset="UTF-8" class="edit_artist" enctype="multipart/form-data" id="edit_artist_7236" method="post">
-		<div class="row">
-			<div style="margin:0;padding:0display:inline">
-			</div>
 
-<div class="row">
-	<div class="col-md-6"></div>
-  
-			<div class="span10">
-				<div id="profile-image"> 
-			<img id="image-drag-container" src="https://www.gigmit.com/assets/microsite/title-image-default-580x326-b4723c0caa7ee6f1c7412a8f27559a40.png">
-			<div class="block" id="self-description">
-				<h3 style="color:white">
-					Bio
-				</h3>
-				<textarea class="span10" data-bind="description" id="description" name="description" rows="10"></textarea>
-			</div>
-
-		<div class="col-md-6"></div	
-			<div class="span6">
-				<div data-edit-mode id="media-player">
-					<h3 style="color:white">
-						Performance Links
-					</h3>
-					<ul></ul>
-					<div id="external-media-item-input-container">
-						<div class="input-append">
-							<input name="media_item_url" placeholder="SoundCloud, Youtube or Vimeo address" type="text" data-hasqtip="true">
-							<button class="btn" data-action="add-media-item-to-list" type="button">
-								<i class="glyphicon-plus">
-								</i>
-							</button>
-						</div>
-					</div>
+	<div class="row">
+<div class="col-md-6">
 					<div class="block" id="homebase">
-						<h3 style="color:white">
+						<h2 style="color:white"><strong>
 							Home Base
-						</h3>
+						</strong></h2>
 						<input class="input-small" data-bind="zip_code" id="artist_address_attributes_zip_code" name="artist[address_attributes][zip_code]" placeholder="ZIP" size="30" type="text" value="04240">
 						<input class="input-large" data-bind="city" id="artist_address_attributes_city" name="artist[address_attributes][city]" placeholder="city" size="30" type="text" valye="lewiston">
-						<select data-bind="country" id="artist_address_attributes_country" name="artist[address_attributes][country]"><option value="">Please choose…</option>
+						<br>
+					</br>
+						<select data-bind="country" id="artist_address_attributes_country" name="artist[address_attributes][country]"><option value="">Country</option>
 <option value="AF">Afghanistan</option>
 <option value="AL">Albania</option>
 <option value="DZ">Algeria</option>
@@ -322,3 +291,18 @@ Edit Artist Page
 <option value="AX">Åland Islands</option></select>
 <input id="artist_adress_attributes_id" name="artist[address_attributes][id]" type="hidden" value="38398">
 </div>
+
+<div class="block-rounded" id="self-description">
+				<h2 style="color:white"><strong>
+					Bio
+				</h2></strong>
+				<textarea class="span1" data-bind="description" id="description" name="description" style="width: 500px;" rows="9"></textarea>
+			</div></div>
+
+<div class="col-md-6">
+<div id="profile-image"> 
+			<img id="image-drag-container" class="img-rounded" height="380" width="600" alt="image responsive" src="http://i.vimeocdn.com/video/450496127_640.jpg"></div></div>
+
+
+			
+			
