@@ -25,7 +25,22 @@ Edit Artist Page
 <div id="page">
 </div>
 </div>
-<br>
+<div class="container">
+<div class="row">
+<div div data-edit-mode id="media-player">
+	<h2 style="color:white"><Strong>
+		Performance Links
+	</h2></strong>
+	<ul></ul>
+	<div id="external-media-item-input-container">
+		<div class="input-append">
+			<input name="media_item_url" placeholder="Soundcloud, YouTube, Vimeo Address" type="text" style="width: 500px"; data-hasqtip="true">
+			<button class="btn" data-action="add-media-tem-to-list" type="button">
+				<i class="glyphicon glyphicon-plus">
+				</i>
+			</button>
+		</div>
+	</div>
 
 
 	<div class="row">
@@ -36,8 +51,6 @@ Edit Artist Page
 						</strong></h2>
 						<input class="input-small" data-bind="zip_code" id="artist_address_attributes_zip_code" name="artist[address_attributes][zip_code]" placeholder="ZIP" size="30" type="text" value="04240">
 						<input class="input-large" data-bind="city" id="artist_address_attributes_city" name="artist[address_attributes][city]" placeholder="city" size="30" type="text" valye="lewiston">
-						<br>
-					</br>
 						<select data-bind="country" id="artist_address_attributes_country" name="artist[address_attributes][country]"><option value="">Country</option>
 <option value="AF">Afghanistan</option>
 <option value="AL">Albania</option>
@@ -292,12 +305,17 @@ Edit Artist Page
 <input id="artist_adress_attributes_id" name="artist[address_attributes][id]" type="hidden" value="38398">
 </div>
 
+
+
 <div class="block-rounded" id="self-description">
 				<h2 style="color:white"><strong>
 					Bio
 				</h2></strong>
-				<textarea class="span1" data-bind="description" id="description" name="description" style="width: 500px;" rows="9"></textarea>
+				<textarea class="span1" data-bind="description" id="description" name="description" style="width: 500px;" rows="10"></textarea>
 			</div></div>
+
+			
+
 
 <div class="col-md-6">
 <div id="profile-image"> 
